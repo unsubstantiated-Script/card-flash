@@ -22,7 +22,7 @@
     </h1>
 
     <div id="cards-container" class="cards">
-        <div class="card active">
+        <!-- <div class="card active ">
             <div class="inner-card">
                 <div class="inner-card-front">
                     <p>
@@ -46,14 +46,15 @@
                     <p>A programming disc</p>
                 </div>
             </div>
-        </div>
+        </div> -->
     </div>
 
     <div class="navigation">
         <button id="prev" class="nav-button">
             <i class="fa fa-arrow-left"></i>
         </button>
-        <p class="current"></p>
+
+        <p id="current"></p>
 
         <button id="next" class="nav-button">
             <i class="fa fa-arrow-right"></i>
@@ -62,11 +63,11 @@
 
 
     <div id="add-container" class="add-container">
-        <h1>Add New Card
+        <h3>Add New Card
             <button id="hide" class="btn btn-small btn-ghost">
                 <i class="fa fa-times"></i>
             </button>
-        </h1>
+        </h3>
         <div class="form-group">
             <label for="question">Question</label>
             <textarea id="question" placeholder="Enter Question..."></textarea>
