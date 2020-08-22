@@ -6,7 +6,7 @@ Flash Card System for populating and displaying flash cards with animations
 
 Challenges faced:
 
--
+-None really, need to add in some functionality in deleting individual cards...
 
 ## Contributors
 
